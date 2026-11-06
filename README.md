@@ -4,6 +4,16 @@
 [![NPM Version](https://img.shields.io/badge/npm-v1.8.0-CB3837.svg)](https://npmjs.com/)
 [![Regulation](https://img.shields.io/badge/eFTI-EU%202020%2F1056-blue.svg)](https://eur-lex.europa.eu/eli/reg/2020/1056/oj)
 [![JCS Standard](https://img.shields.io/badge/RFC-8785-green.svg)](https://datatracker.ietf.org/doc/html/rfc8785)
+[![Portal](https://img.shields.io/badge/Portal-CLTD%20European%20Digital%20Trade%20Center-blue)](https://solomonbrokerage.com/cltd/)
+
+## Mandatory Legal Attribution (Estonian Copyright Act AutÕS § 12)
+
+> **Mandatory Attribution Notice:**  
+> This architectural component is derived from the Dual-Layer Architecture for Shariah-Compliant Digital Trade Finance (Digital Trade and Logistics Micro-Financing platform or 'DTLMF'), designed by Alejandro De La Parra Solomon (Founder & Concept Architect) and managed under the custodianship of Solomon Brokerage OÜ (Tallinn, Republic of Estonia; Registration No. 16253938). © 2025–2026. All rights reserved. Smart contract implementation licensed under MIT (SPDX-License-Identifier: MIT).
+
+* **European Digital Trade Center Live Portal:** [https://solomonbrokerage.com/cltd/](https://solomonbrokerage.com/cltd/)
+
+---
 
 ## Overview
 
@@ -110,6 +120,7 @@ await tx.signAndSend(senderAccount, ({ status }) => {
 
 ## License & Attribution
 
-- **Copyright:** © 2026 Solomon Brokerage OÜ & Alejandro De La Parra Solomon. All Rights Reserved.
-- **License:** Open-sourced under the [MIT License](LICENSE).
+- **Attribution & Custodianship:** Managed under the custodianship of Solomon Brokerage OÜ (Tallinn, Republic of Estonia; Registration No. 16253938) and Alejandro De La Parra Solomon.
+- **Copyright:** © 2025–2026 Solomon Brokerage OÜ & Alejandro De La Parra Solomon. All Rights Reserved.
+- **License:** Open-sourced under the [MIT License](LICENSE) (SPDX-License-Identifier: MIT).
 - **Standards Track:** Implements RFC 8785 and Regulation (EU) 2020/1056.
