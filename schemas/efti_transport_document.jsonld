@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    {
+      "eFTI": "https://ec.europa.eu/transport/themes/sustainable/efti_en#",
+      "Consignment": "eFTI:Consignment",
+      "movementId": "eFTI:movementId",
+      "carrier": "eFTI:carrier",
+      "shipper": "eFTI:shipper",
+      "consignee": "eFTI:consignee",
+      "placeOfLoading": "eFTI:placeOfLoading",
+      "placeOfDelivery": "eFTI:placeOfDelivery",
+      "grossMassKg": "eFTI:grossMassKg",
+      "dangerousGoods": "eFTI:dangerousGoods",
+      "documentHash": "eFTI:documentHash"
+    }
+  ],
+  "id": "urn:uuid:e4b09c5a-7b3c-4cf2-8d76-123456789abc",
+  "type": ["VerifiableCredential", "eFTITransportDocument"],
+  "issuer": "did:substrate:5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+  "issuanceDate": "2026-03-15T08:30:00Z",
+  "credentialSubject": {
+    "id": "did:eidas:EU:AEOF:EE10293847",
+    "movementId": "EFTI-EU-2026-0098412",
+    "carrier": "Solomon Maritime Logistics OÜ",
+    "shipper": "Nordic Trade Consortium AS",
+    "consignee": "Mediterranean Terminal Logistics S.A.",
+    "placeOfLoading": "Port of Tallinn, EE (EETLN)",
+    "placeOfDelivery": "Port of Rotterdam, NL (NLRTM)",
+    "grossMassKg": 42500.5,
+    "dangerousGoods": false
+  }
+}

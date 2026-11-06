@@ -1,0 +1,36 @@
+{
+  "name": "dtlmf-efti-jcs-sdk",
+  "version": "1.8.0",
+  "description": "Lightweight TypeScript / JavaScript SDK for eFTI Regulation (EU) 2020/1056 JSON Canonicalization Scheme (RFC 8785) and SHA-256 on-chain digest generation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node examples/generate_hash.js"
+  },
+  "keywords": [
+    "efti",
+    "jcs",
+    "rfc8785",
+    "canonicalization",
+    "logistics",
+    "freight",
+    "substrate",
+    "polkadot",
+    "verifiable-credentials",
+    "eidas"
+  ],
+  "author": "Solomon Brokerage OÜ & Alejandro De La Parra Solomon",
+  "license": "MIT",
+  "dependencies": {
+    "canonicalize": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adelaparras/dtlmf-efti-jcs-sdk.git"
+  }
+}
